@@ -1,0 +1,62 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8">
+        <title>VIS 101 Homework</title>
+        <style type="text/css">
+   h1 {
+    font-family: Open Sans ;
+    color: #1946ba;
+   }
+   h2 {
+   font-family: Open Sans ;
+   }
+      .block1 {
+
+    width: 960px;
+    padding: 5px;
+    padding-left: 0px;
+    padding-right: 20px;
+    border: solid 1px #F5F5F5;
+    float: left;
+   }
+   a.buttom {
+   OnClick="a()"
+  color: #fff;
+  text-decoration: none;
+  user-select: none;
+  background: #ec0b43;
+  padding: .5em 1em;
+  outline: none;
+  p.line {
+    border-left: 2px solid #ccc;
+    margin-left: 0 px;
+    padding-left: 10px;
+   }
+}
+  </style>
+        <script language="javascript">
+         function a() {
+    var b=[];
+	b[0]='Цитата №1';
+	b[1]='Цитата №2';
+	var i=Math.floor(Math.random()*b.length);}
+	document.write( b[i] );
+</script>
+
+    </head>
+    <body>
+    <h1> First VIS101 Homework </h1>
+    <div class="block1">
+    <h2>Quote Of the Day</h2>
+        <div style="border-width: 0 0 0 1px; border-style: solid; padding-left: 10px;">
+            <p class="line" id ="text">All successful men and women are big dreamers. They imagine what their future could be, ideal in every respect, and then they work every day toward their distant vision, that goal or purpose.” – Brian Tracy</p>
+    </div>
+    </div>
+    <br clear> <br clear> <br clear> <br clear> <br clear> <br clear>  <br clear> <br clear>
+    <form>
+        <a href="#" class="buttom" OnClick="a()" >Change Quote Of the Day</a>
+    </form>
+    <div id="info"></div>
+    </body>
+    </html>
